@@ -23,7 +23,6 @@ class Player:
     def __init__(self, name, deck):
         self.name = name
         self.deck = deck
-        self.points = 0
 
     def take_card(self, suit,rank):
         self.deck.append(Card(suit, rank))
