@@ -24,9 +24,6 @@ class Player:
         self.name = name
         self.deck = deck
 
-    def take_card(self, suit,rank):
-        self.deck.append(Card(suit, rank))
-
     def print_info(self):
         print(f"{self.name}:", end=' ')
         for i_elem in range(len(self.deck.cards)):
